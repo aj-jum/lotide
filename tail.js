@@ -5,7 +5,7 @@ const assertEqual = function(actual, expected) {
 
 //Tail Function
 const tail = function(arr) {
-  let arrTail = arr.slice[1];
+  let arrTail = arr.slice(1);
   return arrTail;
 };
 
