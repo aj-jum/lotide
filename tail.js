@@ -4,7 +4,7 @@ const assertEqual = function(actual, expected) {
 };
 
 //Tail Function
-const tail = function(aarr) {
+const tail = function(arr) {
   let arrTail = arr.slice[1];
   return arrTail;
 };
