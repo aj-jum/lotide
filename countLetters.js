@@ -5,12 +5,13 @@ const assertEqual = function(actual, expected) {
 const countLetters = function(word) {
   let result = {};
   for (const letter of word) {
-  
+      if (result[letter] !== " " ) {
       if (result[letter]) {
         result[letter] += 1;
       } else {
          result[letter] = 1;
     }
+  }
   }
   return result;
 };
