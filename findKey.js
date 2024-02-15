@@ -24,10 +24,9 @@ const obj1 = {
 };
 assertEqual(findKey(obj1, val => val === 2), 'b');
 
-// Test case 2: Finding a key that does not exist
 const obj2 = {
-  x: 'foo',
+  x: 'law',
   y: 'bar',
-  z: 'baz'
+  z: 'exam'
 };
-assertEqual(findKey(obj2, val => val === 'qux'), undefined);
+assertEqual(findKey(obj2, val => val === 'suits'), undefined);
