@@ -29,3 +29,5 @@ assertEqual(eqArrays([1], [1]), true); // should PASS
 assertEqual(eqArrays([1], [2]), false); // should PASS
 assertEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true); // should PASS
 assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), false); // should PASS
+
+module.exports = eqArrays;
