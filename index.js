@@ -14,23 +14,24 @@ const assertEqual = require('./assertEqual');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
 
+module.exports = {head, tail, middle, findKey, letterPositions, countOnly, countLetters, eqArrays, eqObjects, assertObjectsEqual, assertArraysEqual, assertEqual, takeUntil, without}
 
-module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  letterPositions: letterPositions,
-  countOnly: countOnly,
-  countLetters: countLetters,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects,
-  assertObjectsEqual: assertObjectsEqual,
-  assertArraysEqual: assertArraysEqual,
-  assertEqual: assertEqual,
-  takeUntil: takeUntil,
-  without: without
+// module.exports = {
+//   head:   head,
+//   tail:   tail,
+//   middle: middle,
+//   findKey: findKey,
+//   findKeyByValue: findKeyByValue,
+//   letterPositions: letterPositions,
+//   countOnly: countOnly,
+//   countLetters: countLetters,
+//   eqArrays: eqArrays,
+//   eqObjects: eqObjects,
+//   assertObjectsEqual: assertObjectsEqual,
+//   assertArraysEqual: assertArraysEqual,
+//   assertEqual: assertEqual,
+//   takeUntil: takeUntil,
+//   without: without
 
 
 
